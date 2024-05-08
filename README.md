@@ -11,4 +11,4 @@ aimed to include some form of branchless code, but never got round to it.
 
 At default assembly, using the Microsoft Linker, the executable size is 2.56kB.
 Using a few linker commands, specifically 'ml /coff main.asm /link /merge:.rdata=.text /merge:.data=.text /align:16 /subsystem:console',
-the size is cut to roughly 960kB.
+the size is cut to roughly 960B.
